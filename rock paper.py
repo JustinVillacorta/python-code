@@ -12,6 +12,12 @@ while True:
     elif user =="rock":
         if computer =="scissors":
             print("rock smahes scissors! you win")
+    elif user =="rock":
+        if computer =="paper":
+            print("paper cover rock! computer win")
+    elif user =="paper":
+        if computer =="rock":
+            print("paper cover rock! you win")
 
     elif user =="scissors":
         if computer =="rock":
